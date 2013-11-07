@@ -12,7 +12,7 @@
             "source_ami": "ami-fb68f8cb",
             "instance_type": "m1.small",
             "ssh_username": "ubuntu",
-            "ami_name": "packer-docker {{timestamp}}"
+            "ami_name": "packer-docker precise {{timestamp}}"
             }],
 
     "provisioners": [{
